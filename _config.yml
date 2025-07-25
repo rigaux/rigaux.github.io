@@ -149,7 +149,6 @@ collections:
     output: false
     defaults:
       layout: post
-    output: true
   projects:
     output: true
 
