@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /cours/
-title: Cours
+permalink: /teaching/
+title: Teach
 description: Supports de cours
-nav: true
+nav: false
 nav_order: 6
 ---
 
