@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projets/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-cours",
           title: "Cours",
-          description: "Supports de cours",
+          description: "Cours",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cours/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -419,6 +419,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "cours-le-modèle-relationnel",
+          title: 'Le modèle relationnel',
+          description: "Modèles et langages des bases relationnelles",
+          section: "Cours",handler: () => {
+              window.location.href = "/cours/1_modrel/";
+            },},{id: "modrel-introduction",
+          title: 'Introduction',
+          description: "Présentation du contenu du cours",
+          section: "Modrel",handler: () => {
+              window.location.href = "/modrel/1_intro/";
+            },},{id: "modrel-cours-1",
+          title: 'Cours 1',
+          description: "with background image",
+          section: "Modrel",handler: () => {
+              window.location.href = "/modrel/2_cours/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
