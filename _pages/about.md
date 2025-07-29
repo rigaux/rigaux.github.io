@@ -8,13 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>Laboratoire Cédric</p>
-    <p>292 rues Saint-Martin</p>
-    <p>75141 Paris Cedex 03</p>
-    <p>philippe.rigaux@cnam.fr</p>
+  more_info: 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -36,15 +32,5 @@ Vous trouverez principalement sur ce site les productions de mon activité
 professionelle, à savoir mes enseignements, mes projets de recherche actuels
 et quelques autres ressources, dont des développements logiciels.
 
-# Enseignement
-
-Je propose trois supports de cours complets dans [la partie dédiée
-aux enseignements]({{ site.baseurl}}{% link _pages/teaching.md %}). Ils traitent, à différents niveaux, des bases
-de données.
-
-  - Le premier est un cours consacré au modèle relationnel et à ses langages
-  - Le second traite du fonctionnement des systèmes de gestion de données, vu côté serveur
-  - Enfin le dernier est un introduction aux systèmes non relationnels, groupés par commodité sous le terme générique "NoSQL"
-
-
-
+Tout le matériel proposé ici peut être utilisé librement sous réserve de respecter
+les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International. <img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>.

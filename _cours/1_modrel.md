@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Le modèle relationnel
-description: Modèles et langages des bases relationnelles
-img: assets/img/12.jpg
+description: Les systèmes de gestion de base de données, vues du côté concepteur
+img: assets/img/3.jpg
 importance: 1
 cours_coll: modrel
+redirect: http://sql.bdpedia.fr
 category: work
 related_publications: false
 ---

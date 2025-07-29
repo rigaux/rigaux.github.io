@@ -1,88 +1,71 @@
-- title: General Information
+- title: Etat civil
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Nom
+      value: Philippe Rigaux
+    - name: nationalité
+      value: française
+    - name: Etablissement
+      value: Conservatoire national des arts et métiers (Cnam)
+    - name: Adresse professionnelle
+      value:  Cedric/Cnam, 292 rue St Martin, 75141  Paris Cedex 03
 
-- title: Education
+- title: Formation
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Habilitation à diriger des recherches (HDR)
+      institution: Université Paris-Sud (maintenant Paris-Saclay)
+      year: 2002
+    - title: Doctorat en informatique
+      institution: Conservatoire national des arts et métiers (Cnam)
+      year: 1995
+    - title: DEA en informatique fondamentale
+      institution: Université Paris VII
+      year: 1983
+    - title: Autres
+      description: 
+        - Maîtrise histoire moderne (Université Nanterre, 1988)
+        - Etudes musicales (viole de gambe), Conservatoire de Boulogne, Institut lemmens (Belgique).
 
-- title: Experience
+- title: Emplois et fonctions
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Professeur des universités
+      institution: Conservatoire national des arts et métiers (Cnam)
+      year: 2014-
+    - title: Directeur scientifique 
+      institution: Internet memory research (startup)
+      year: 2011-2014
+    - title: Chercheur en détachement
+      institution: Institut national de recherche en sciences et technologies du numérique - INRIA
+      year: 2010-2011
+    - title: Professeur des universités
+      institution: Université Paris-Dauphine
+      year: 2004-2010
+    - title: Maître de conférences
+      institution: Université Paris-Sud (maintenant Paris-Saclay)
+      year: 2001-2004
+    - title: Maître de conférences
+      institution: Conservatoire national des arts et métiers (Cnam)
+      year: 1995-2000
+    - title: Doctorant 
+      institution: Boursier INRIA
+      year: 1992-1995
+    - title: Ingénieur en société de services 
+      institution: Linedata services
+      year: 1986-1992
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projets
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Thèmes de recherche
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Informatique musicale
       items:
         - Description 1.
         - Description 2.
@@ -91,7 +74,7 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
+- title: Autres
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Musique, montagne, etc.

@@ -1,8 +1,8 @@
 <div class="col">
  
-  <a href="{{ cours.cours_coll | relative_url }}">
+  <a href="{% if cours.redirect %}{{ cours.redirect }}{% else %}{{ cours.cours_coll | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
-      {% if project.img %}
+      {% if cours.img %}
         {%
           include figure.liquid
           loading="eager"
