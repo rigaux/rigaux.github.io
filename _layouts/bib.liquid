@@ -22,8 +22,20 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded w-100" >{{ entry.abbr }}</abbr>
         {% endif %}
+      {% else %}
+          {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+          {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+         {% if entry.type == 'article' %}
+          <abbr class="badge rounded w-100" style="background-color:#009f36">Journal</abbr>
+         {% elsif proceedings contains entry.type %}
+             <abbr class="badge rounded w-100" style="background-color:#00369f">Proceedings</abbr>
+         {% elsif thesis contains entry.type %}
+             <abbr class="badge rounded w-100">PhD / HDR</abbr>        
+         {% else %}
+             <abbr class="badge rounded w-100">{{ entry.type  }}</abbr> 
+         {% endif %}
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
