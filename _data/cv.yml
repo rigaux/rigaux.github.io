@@ -58,9 +58,9 @@
 - title: Projets
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://collabscore.cnam.fr">CollabScore</a>
+      year: 2020-
+      description: Un projet de numérisation de partitions musicales par reconnaisance optique
 
 - title: Thèmes de recherche
   type: nested_list

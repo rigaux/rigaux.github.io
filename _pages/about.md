@@ -29,7 +29,7 @@ où j'enseigne l'informatique et plus particulièrement tout ce qui concerne
 les principes, méthodes et techniques de gestion de données.
 
 Vous trouverez principalement sur ce site les productions de mon activité
-professionelle, à savoir mes enseignements, mes projets de recherche actuels
+professionnelle, à savoir mes enseignements, mes projets de recherche actuels
 et quelques autres ressources, dont des développements logiciels.
 
 Tout le matériel proposé ici peut être utilisé librement sous réserve de respecter

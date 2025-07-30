@@ -14,7 +14,7 @@ horizontal: false
 <!-- Affichage de la liste des cours -->
 
 <p>Chacun de mes cours est accessible sous la forme d'un site web organisé
-en chapitre et sections, comprenant un texte détaillé, une vidéo 
+en chapitres et sections, chacune comprenant un texte détaillé, une vidéo 
 résumant les points-clé, des exercices et des quiz.</p>
 
 {% assign les_cours = site.cours | sort: "importance" %}
